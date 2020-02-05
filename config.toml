@@ -41,32 +41,35 @@ defaultContentLanguageInSubdir = false
         brand = "NebulaGraph"
 
         [[languages.en.params.navigation.links]]
-          title = "Solution"
+          title = "Home"
+          link = "/"
+        [[languages.en.params.navigation.links]]
+          title = "Solutions"
           [[languages.en.params.navigation.links.links]]
             title = "Why Nebula Graph"
             link = "/en/#advantage"
           [[languages.en.params.navigation.links.links]]
             title = "Get Started"
-            link = "https://github.com/vesoft-inc/nebula/blob/master/docs/manual-EN/1.overview/2.quick-start/1.get-started.md"
+            link = "https://docs.nebula-graph.io/manual-EN/1.overview/2.quick-start/1.get-started/#batch-inserting"
             target = "_blank"
           # [[languages.en.params.navigation.links.links]]
           # 	title = "Use cases"
         # [[languages.en.params.navigation.links]]
         # 	title = "Customers"
         [[languages.en.params.navigation.links]]
-          title = "Content"
+          title = "Resources"
           [[languages.en.params.navigation.links.links]]
             title = "Blog"
             link = "/en/posts"
           [[languages.en.params.navigation.links.links]]
             title = "Docs"
-            link = "https://github.com/vesoft-inc/nebula#documentation"
+            link = "https://docs.nebula-graph.io/"
         [[languages.en.params.navigation.links]]
           title = "Forum"
           link = "https://discuss.nebula-graph.io/"
           target = "_blank"
         [[languages.en.params.navigation.links]]
-          title = "语言"
+          icon = "glyphicon glyphicon-globe"
             [[languages.en.params.navigation.links.links]]
               title = "English"
               link = "/en"
@@ -113,7 +116,6 @@ defaultContentLanguageInSubdir = false
           [[languages.en.params.footer.social.links]]
               title = "WeChat"
               class = "icon fa fa-wechat"
-              modal = "btn-lg"
               id = "#myModal"
               target = "_blank"
         [[languages.en.params.footer.community]]
@@ -128,7 +130,7 @@ defaultContentLanguageInSubdir = false
               target = "_blank"
           [[languages.en.params.footer.community.links]]
               title = "Slack"
-              link = "https://www.linkedin.com/company/vesoft-nebula-graph/"
+              link = "https://join.slack.com/t/nebulagraph/shared_invite/enQtNjIzMjQ5MzE2OTQ2LTM0MjY0MWFlODg3ZTNjMjg3YWU5ZGY2NDM5MDhmOGU2OWI5ZWZjZDUwNTExMGIxZTk2ZmQxY2Q2MzM1OWJhMmY#"
               target = "_blank"
         [[languages.en.params.footer.company]]
           title = "Company"
@@ -247,13 +249,16 @@ defaultContentLanguageInSubdir = false
         brand = "NebulaGraph"
 
         [[languages.cn.params.navigation.links]]
+          title = "首页"
+          link = "/"
+        [[languages.cn.params.navigation.links]]
           title = "了解"
           # [[languages.cn.params.navigation.links.links]]
           #   title = "Nebula Graph"
           #   link = "/#advantage"
           [[languages.cn.params.navigation.links.links]]
             title = "开始尝试"
-            link = "https://github.com/vesoft-inc/nebula/blob/master/docs/manual-EN/1.overview/2.quick-start/1.get-started.md"
+            link = "https://docs.nebula-graph.io/manual-EN/1.overview/2.quick-start/1.get-started/#batch-inserting"
             target = "_blank"
           # [[languages.cn.params.navigation.links.links]]
           # 	title = "Use cases"
@@ -266,13 +271,13 @@ defaultContentLanguageInSubdir = false
             link = "/cn/posts"
           [[languages.cn.params.navigation.links.links]]
             title = "文档"
-            link = "https://github.com/vesoft-inc/nebula#documentation"
+            link = "https://docs.nebula-graph.io/"
         [[languages.cn.params.navigation.links]]
           title = "论坛"
           link = "https://discuss.nebula-graph.io/"
           target = "_blank"
         [[languages.cn.params.navigation.links]]
-          title = "Language"
+          icon = "glyphicon glyphicon-globe"
             [[languages.cn.params.navigation.links.links]]
               title = "English"
               link = "/en"
@@ -330,11 +335,11 @@ defaultContentLanguageInSubdir = false
               target = "_blank"
           [[languages.cn.params.footer.community.links]]
               title = "论坛"
-              link = "https://weibo.com/nebulagraph"
+              link = "https://discuss.nebula-graph.io/"
               target = "_blank"
           [[languages.cn.params.footer.community.links]]
               title = "Slack"
-              link = "https://www.linkedin.com/company/vesoft-nebula-graph/"
+              link = "https://join.slack.com/t/nebulagraph/shared_invite/enQtNjIzMjQ5MzE2OTQ2LTM0MjY0MWFlODg3ZTNjMjg3YWU5ZGY2NDM5MDhmOGU2OWI5ZWZjZDUwNTExMGIxZTk2ZmQxY2Q2MzM1OWJhMmY#"
               target = "_blank"
         [[languages.cn.params.footer.company]]
           title = "公司"

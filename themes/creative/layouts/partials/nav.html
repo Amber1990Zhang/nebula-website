@@ -4,7 +4,8 @@
         {{ "<!-- Brand and toggle get grouped for better mobile display -->" | safeHTML }}
         <div class="navbar-header">
             <div class="github-star">
-                <a class="github-button" href="https://github.com/vesoft-inc/nebula" aria-label="Star vesoft-inc/nebula on GitHub">Star</a>
+                <!-- Place this tag where you want the button to render. -->
+                <a class="github-button" href="https://github.com/vesoft-inc/nebula" data-icon="octicon-star" data-show-count="true" aria-label="Star vesoft-inc/nebula on GitHub">Star</a>
             </div>
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                 <span class="sr-only">Toggle navigation</span>
@@ -20,7 +21,10 @@
                 {{ range .Site.Params.navigation.links }}
                     {{ if .links }}
                         <li class="dropdown">
-                            <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">{{ .title }}<span class="caret"></span></a>
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                                <span class="{{.icon}}">{{ .title }}</span>
+                                <span class="caret"></span>
+                            </a>
                             <ul class="dropdown-menu">
                                 {{ range .links }}
                                     <li class="nav-item">

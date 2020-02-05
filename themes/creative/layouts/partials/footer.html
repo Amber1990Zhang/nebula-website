@@ -3,21 +3,21 @@
     <!--采用container，使得页尾内容居中 -->
         <div class="container">
             <div class="row">
-                <div class="row-content col-lg-6 col-sm-4 col-xs-6">
+                <div class="row-content col-lg-6 col-sm-6 col-xs-6">
                     <h3>{{ .Site.Params.footer.social.title }}</h3>
                     <ul class="social">
                         {{ range .Site.Params.footer.social.links }}
                             <li>
-                                <a href="{{.link}}" title="{{.title}}" class="{{.modal}}" data-toggle="modal"  data-target="{{.id}}">
+                                <a href="{{.link}}" title="{{.title}}" data-toggle="modal"  data-target="{{.id}}">
                                     <span class="{{.class}}"></span>
                                 </a>
                             </li>
                         {{ end }}
                     </ul>
-                    <p class="row-content-text">Keep up with the latest news from Nebula Graph</p>
+                    <!-- <p class="row-content-text">Keep up with the latest news from Nebula Graph</p> -->
                     <p class="row-content-text">Nebula Graph will respect your data privacy per our Privacy Policy</p>
                 </div>
-                <div class="row-content col-lg-3 col-sm-4 col-xs-6">
+                <div class="row-content col-lg-6 col-sm-6 col-xs-6">
                     <h3>Community</h3>
                     <ul>
                          {{ range .Site.Params.footer.community }}
@@ -31,7 +31,7 @@
                         {{ end }}
                     </ul>
                 </div>
-                <div class="row-content col-lg-3 col-sm-4 col-xs-6">
+                <!-- <div class="row-content col-lg-3 col-sm-4 col-xs-6">
                     <h3>Company</h3>
                     <ul>
                      {{ range .Site.Params.footer.company }}
@@ -44,7 +44,7 @@
                             {{ end }}
                         {{ end }}
                     </ul>
-                </div>
+                </div> -->
             </div><!--/.row -->
         </div><!--/.container-->
 

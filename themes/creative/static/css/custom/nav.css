@@ -7,6 +7,24 @@
   text-transform: none;
 }
 
+.dropdown-menu {
+  min-width: 150px;
+}
+
+.navbar-right .dropdown-menu {
+  left: -1px !important;
+  right: auto;
+}
+
+.dropdown-menu>li>a:hover {
+  background-color: #fff;
+  text-decoration: underline;
+}
+
+.dropdown-menu>li>a:focus {
+  background-color: #222;
+}
+
 @media(min-width: 768px) {
   .navbar {
     background: url('../../img/header.png') center;
@@ -46,6 +64,11 @@
   }
 }
 
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+  background: none;
+  color: #fff;
+}
+
 @media(max-width: 767px) {
   .navbar-brand {
     width: 150px;
@@ -53,9 +76,13 @@
     background-image: url('../../img/logo-dart.png');
     background-size: cover;
   }
+  .navbar-header {
+    text-align: right;
+  }
   .navbar-header > .github-star {
     display: inline-block;
     margin-top: 15px;
+    margin-right: 15px;
   }
   .navbar-nav .github-star {
     display: none;

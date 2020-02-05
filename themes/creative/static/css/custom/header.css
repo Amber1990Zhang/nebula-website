@@ -28,7 +28,7 @@ header .get-start:hover {
 
  .BlogAnchor p {
      font-size: 18px;
-     color: #15a230;
+     color: #95989d;
      margin: 0 0 0.3rem 0;
      text-align: right;
  }
@@ -61,23 +61,20 @@ header .get-start:hover {
  }
 
  .BlogAnchor li .nav_item.current {
-     color: white;
-     background-color: #5cc26f;
+   text-decoration: underline;
  }
 
  #AnchorContentToggle {
      font-size: 13px;
      font-weight: normal;
-     color: #FFF;
      display: inline-block;
      line-height: 20px;
-     background: #5cc26f;
      font-style: normal;
      padding: 1px 8px;
  }
 
  .BlogAnchor a:hover {
-     color: #5cc26f;
+   text-decoration: underline;
  }
 
  .BlogAnchor a {
